@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body {
+  font-family: 'Bad Script', cursive;
+  font-size: 16px;
+  color: black;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: #3D80CC;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  font-family: inherit;
+  border-radius: 0.5em;
+  margin: 1em;
+  font-size: 1.2em;
+}
+/* Main Container Section */
+.main-container {
+  height: 99vh;
+  margin: 0px 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 
+  ###### Introduction Section  #########
+*/
+
+.intro-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: solid;
+  
+}
+
+.intro-div .intro-sec {
+  flex: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.intro-div .intro-sec .intro-title {
+ 
+  color: #3D80CC;
+  font-size: 2rem;
+}
+
+.intro-div .intro-sec p{
+  font-size: 1.5rem;
+}
+
+.intro-div .intro-sec .socialmedia-sec{
+  border: solid;
+}
+
+.intro-img img{
+  width: 700px;
+}
+
+/* 
+  ####### Social Media Component
+*/
+
+.socialmedia-sec {
+  display: block;
+  font-size: 2em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.socialmedia-sec a {
+  background-color: #dbd5d5;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+}
+.socialmedia-sec a:hover {
+  background-color: #605c5c !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.twitter,.github,.linkedin, .stackOverflow, .gmail{
+  margin: 0 0.5em;  
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+.twitter {
+  color: rgb(29, 161, 242);
+}
+.github {
+  color: black;
+}
+.stackOverflow {
+  color: #f48024;
+}
+.gmail {
+  color: #ea4335;
+}
+
+
+
+
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .main-container {
+    margin: 0 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+
+  .main-container {
+    margin: 0 1rem;
   }
+
+  .intro-div {
+    flex-direction: column;
+  }
+
+
+
+
+
 }

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+header {
+    display: flex;
+    border: solid;
+    height: auto;
+    color: #3D80CC;
+}
+
+header a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #3D80CC;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex: auto;
+}
+.navigation a{
+    display: block;
+    padding: 0em 2em;
+}
+
+.title {
+    flex: auto;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+
+    .navigation a{
+        padding: 0em 1em;
+    }
+    .title{
+        display: none;
+    }
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    .navigation {
+      flex-direction: column;
+    }
+    .title{
+        display: none;
+    }
+  }
