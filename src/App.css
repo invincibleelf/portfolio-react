@@ -13,7 +13,7 @@ h4 {
 
 button {
   background-color: #3D80CC;
-  width: 10rem;
+  width: 10em;
   height: 3rem;
   color: white;
   font-family: inherit;
@@ -34,31 +34,48 @@ button {
 .intro-div {
   display: flex;
   border: solid;
+  flex-wrap: wrap;
+  text-align: center;
   
 }
 
-.intro-div .intro-sec {
-  flex: auto;
-  text-align: center;
-  padding: 2rem;
+.intro-div .intro-sec{
+  flex: 0 0 40%;
+  padding: 2em;
 }
 
-.intro-div .intro-sec .intro-title {
+.intro-div .intro-title {
  
   color: #3D80CC;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
-.intro-div .intro-sec p{
-  font-size: 1.5rem;
+.intro-div p{
+  font-size: 1.5em;
 }
 
 .intro-div .intro-sec .socialmedia-sec{
   border: solid;
 }
 
-.intro-img img{
-  width: 700px;
+.intro-div .intro-img{
+  flex: 0 0 55%;
+}
+
+.intro-div img{
+  width: 100%;
+}
+
+.intro-div .cando-sec {
+  flex: 0 0 55%;
+  padding: 2em;
+}
+.intro-div .cando-img {
+  flex: 0 0 40%;
+}
+
+.intro-div .cando-sec ul {
+  text-align: left;
 }
 
 /* 
@@ -104,27 +121,57 @@ button {
 
 
 
+
 /* Medium screens */
 @media all and (max-width: 800px) {
   .main-container {
-    margin: 0 1rem;
+    margin: 0 1em;
+  }
+  .intro-div .intro-sec{
+    flex: auto;
   }
 
+  .intro-div .cando-sec {
+    flex: auto;
+  }
+  .intro-div .intro-img {
+    flex: auto;
+  }
+  .intro-div .cando-img {
+    flex: auto;
+  }
+
+
+
+  
 }
 
 /* Small screens */
 @media all and (max-width: 500px) {
 
+  body {
+    font-size: 14px;
+  }
+
   .main-container {
-    margin: 0 1rem;
+    margin: 0 1em;
   }
 
-  .intro-div {
+  .intro-div .intro-sec{
+    flex: auto;
+  }
+
+  .intro-div .cando-sec {
+    flex: auto;
+  }
+  .intro-div .intro-img {
+    flex: auto;
+  }
+  .intro-div .cando-img {
+    flex: auto;
+  }
+  /* .intro-div {
     flex-direction: column;
-  }
-
-
-
-
+  } */
 
 }

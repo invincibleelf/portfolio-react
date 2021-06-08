@@ -1,5 +1,7 @@
 import { Component } from "react";
 import introOne from "../assests/images/intro-1.jpg";
+import introTwo from "../assests/images/intro-2.jpg";
+import CanDo from "../components/introduction/CanDo";
 import Intro from "../components/introduction/Intro";
 
 export default class Introduction extends Component {
@@ -12,6 +14,12 @@ export default class Introduction extends Component {
                 <div className="intro-img">
                     <img src={introOne} />
                 </div>
+
+                <div className="cando-img">
+                    <img src={introTwo} />
+                </div>
+                <CanDo/>
+
             </div>
         );
     }
