@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaGithub, FaReact, FaAws } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaReact, FaAws } from 'react-icons/fa';
 import { SiJavascript, SiDotNet, SiCsharp, SiMysql, SiMongodb } from 'react-icons/si';
 
 const introduction = {

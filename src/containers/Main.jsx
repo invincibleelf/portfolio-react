@@ -6,17 +6,14 @@ import Introduction from "./Introduction";
 import Skills from "./Skills";
 
 export default class Main extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return (
             <div className="main-container">
 
                 <Header/>
-                <Introduction/>
-                <Skills/>
+                <Introduction id="introduction"/>
+                <Skills id="skills"/>
                 <Footer />
             </div>
         );

@@ -12,11 +12,11 @@ export default class Introduction extends Component {
             <div className="intro-div">
                <Intro/>
                 <div className="intro-img">
-                    <img src={introOne} />
+                    <img src={introOne} alt="introduction" />
                 </div>
 
                 <div className="cando-img">
-                    <img src={introTwo} />
+                    <img src={introTwo} alt="What I can Do" />
                 </div>
                 <CanDo/>
 
