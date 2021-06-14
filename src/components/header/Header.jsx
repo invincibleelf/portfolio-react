@@ -21,7 +21,7 @@ export default class Header extends Component {
                     <a href="#contact">Contact</a>
                     <a href="#education">Education</a>
                     <a href="#projects">Projects</a>
-                    <a href="experiences">Experiences</a>
+                    <a href="#experiences">Experiences</a>
                     <a href="#skills">Skills</a>
                 </nav>
             </header>

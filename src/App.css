@@ -158,7 +158,8 @@ ul li {
 border: 1px solid;
 border-radius: 50px;
 height: 20px;
-width: 350px;
+flex: 0 0 80%;
+
 }
 
 .filler {
@@ -167,6 +168,15 @@ width: 350px;
   border-radius: inherit;
   transition: width .2s ease-in;
 }
+
+/* 
+  ####### Experiences Section
+*/
+.experiences-div {
+  border: springgreen solid;
+}
+
+
 
 
 
@@ -190,6 +200,7 @@ width: 350px;
   .intro-div .cando-img {
     flex: auto;
   }
+  
 
 
 
@@ -223,5 +234,9 @@ width: 350px;
   /* .intro-div {
     flex-direction: column;
   } */
+
+  .skills-div {
+    flex-direction: column;
+  }
 
 }

@@ -92,8 +92,30 @@ const skills = {
                 level: '60'
             }
         ]
-        
+
     }
+};
+
+const experiences = {
+    title: "Experiences",
+    jobs: [
+        {
+            company: "Company 1",
+            logo: <SiMongodb size='3em' style={{ color: '#3e9737' }} />,
+            title: "Software Developer Intern",
+            duration: "March 2021 - Current",
+            responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            tools: [
+                <FaHtml5 style={{ color: '#e44d26' }} size='3em' />,
+                <FaHtml5 style={{ color: '#e44d26' }} size='3em' />,
+                <FaHtml5 style={{ color: '#e44d26' }} size='3em' />
+            ]
+        },
+        {
+
+        }
+    ]
 }
 
 
@@ -102,5 +124,6 @@ export {
     introduction,
     socialMedia,
     whatCanIDo,
-    skills
+    skills,
+    experiences
 };

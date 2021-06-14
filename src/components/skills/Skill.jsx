@@ -23,12 +23,10 @@ class Skill extends Component {
             <div className="skill">
                 <div style={{ padding: `5px` }}>
                     <div>{skill.src}</div>
-                    <div style={{fontSize:'0.8em', textAlign:'center'}}>{skill.name}</div>
+                    <div style={{ fontSize: '0.8em', textAlign: 'center' }}>{skill.name}</div>
                 </div>
+                <ProgressBar percentage={skill.level} />
 
-                <div>
-                    <ProgressBar percentage={skill.level} />
-                </div>
             </div>
         );
     }

@@ -20,7 +20,7 @@ export default class Skills extends Component {
         });
 
         return (
-            <div className='skills-div'>
+            <div id="skills" className='skills-div'>
                 <div className="title">{skills.title}</div>
                 <div className='frontend-sec'>
                     <span>{frontend.title}</span>
