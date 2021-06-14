@@ -25,7 +25,7 @@ header a {
     padding: 0em 2em;
 }
 
-.title {
+header .title {
     flex: auto;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ header a {
     .navigation a{
         padding: 0em 1em;
     }
-    .title{
+    header .title{
         display: none;
     }
   }
@@ -53,7 +53,7 @@ header a {
     .navigation {
       flex-direction: column;
     }
-    .title{
+    header .title{
         display: none;
     }
   }

@@ -9,10 +9,10 @@ export default class Intro extends Component {
 
         return(
             <div className="intro-sec">
-                <div className="intro-title">{introduction.title}</div>
+                <div className="title">{introduction.title}</div>
                 <p>{introduction.summary}</p>
                 <SocialMedia/>
-                <button class="primary">Resume</button>
+                <button className="primary">Resume</button>
             </div>
         );
     }

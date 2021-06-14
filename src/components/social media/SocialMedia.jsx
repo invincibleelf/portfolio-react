@@ -9,10 +9,10 @@ export default class SocialMedia extends Component {
 
         return (
             <div className="socialmedia-sec">
-                <a href={socialMedia.twitter} target="_blank"><FaTwitter className="twitter" /></a>
-                <a href={socialMedia.github} target="_blank"><FaGithub className="github" /></a>
-                <a href={socialMedia.linkedin} target="_blank" ><FaLinkedinIn className="linkedin" /></a>
-                <a href={socialMedia.stackOverflow} target="_blank" ><FaStackOverflow className="stackOverflow" /></a>
+                <a href={socialMedia.twitter} rel="noreferrer" target="_blank"><FaTwitter className="twitter" /></a>
+                <a href={socialMedia.github} rel="noreferrer" target="_blank"><FaGithub className="github" /></a>
+                <a href={socialMedia.linkedin} rel="noreferrer" target="_blank" ><FaLinkedinIn className="linkedin" /></a>
+                <a href={socialMedia.stackOverflow} rel="noreferrer" target="_blank" ><FaStackOverflow className="stackOverflow" /></a>
                 <a href={`mailto:${socialMedia.gmail}`} ><SiGmail className="gmail" /></a>
             </div>
         );

@@ -7,10 +7,6 @@ body {
   
 }
 
-h4 {
-  font-size: 1.5rem;
-}
-
 button {
   background-color: #3D80CC;
   width: 10em;
@@ -21,10 +17,19 @@ button {
   margin: 1em;
   font-size: 1.2em;
 }
+ul li {
+  list-style: none;
+}
+
 /* Main Container Section */
 .main-container {
   height: 99vh;
   margin: 0px 3em;
+}
+
+.main-container .title{
+  color: #3D80CC;
+  font-size: 2em;
 }
 
 /* 
@@ -117,6 +122,51 @@ button {
   color: #ea4335;
 }
 
+/* 
+  ####### Technical Skills Component
+*/
+
+.skills-div {
+  border: springgreen solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-div .title {
+  flex:0 0 100%;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+}
+
+.frontend-sec, .backend-sec{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.frontend-sec span, .backend-sec span{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.progress-bar {
+border: 1px solid;
+border-radius: 50px;
+height: 20px;
+width: 350px;
+}
+
+.filler {
+  background:#207dda;
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
 
 
 
