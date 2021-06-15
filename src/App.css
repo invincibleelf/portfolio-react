@@ -17,6 +17,11 @@ button {
   margin: 1em;
   font-size: 1.2em;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
 ul li {
   list-style: none;
 }
@@ -222,6 +227,27 @@ flex: 0 0 80%;
   padding: 0 5px;
 }
 
+/* 
+  ####### Projects Section
+*/
+.projects-div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2rem 2rem;
+}
+
+.projects-div .project-sec {
+  border: #9e9fa1 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 0.5em;
+}
+
+.project-banner img {
+  padding-top: 1.5em;
+  max-width: 60%;
+}
+
 
 
 
@@ -252,10 +278,9 @@ flex: 0 0 80%;
   .experiences-div {
     grid-template-columns: auto auto;
   }
-  
-
-
-
+  .projects-div {
+    grid-template-columns: auto;
+  }
   
 }
 
@@ -293,5 +318,9 @@ flex: 0 0 80%;
   .experiences-div {
     grid-template-columns: auto;
   }
+  .projects-div {
+    grid-template-columns: auto;
+  }
+  
 
 }

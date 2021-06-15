@@ -227,7 +227,27 @@ const experiences = {
         }
 
     ]
-}
+};
+
+const projects = {
+    title:"Projects",
+    project:[
+        {
+            name:"Project Bit.Country",
+            image:"../../images/bitcountry.png",
+            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            link:"https://bit.country/"
+        },
+        {
+            name:"Project Esewa",
+            image:"../../images/esewa.png",
+            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            link:"https://esewa.com.np/#/home"
+        }
+    ]
+};
 
 
 
@@ -236,5 +256,6 @@ export {
     socialMedia,
     whatCanIDo,
     skills,
-    experiences
+    experiences,
+    projects
 };
