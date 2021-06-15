@@ -173,8 +173,56 @@ flex: 0 0 80%;
   ####### Experiences Section
 */
 .experiences-div {
-  border: springgreen solid;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1.5rem 1.5rem;
 }
+
+.experiences-div .title {
+  flex:0 0 100%;
+}
+
+.job-sec {
+  border: #9e9fa1 1px solid;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+.job-sec .job-banner .company {
+  background-color: #3D95CC;
+  height: 4em;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.job-sec img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -30px;
+  border-radius: 50%;
+}
+
+.job-sec .job-description {
+  position: relative;
+  top: -30px;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools span {
+  display: block;
+}
+
+.job-description .job-responsibility{
+  text-align: left;
+  padding: 0 5px;
+}
+
+
 
 
 
@@ -199,6 +247,10 @@ flex: 0 0 80%;
   }
   .intro-div .cando-img {
     flex: auto;
+  }
+
+  .experiences-div {
+    grid-template-columns: auto auto;
   }
   
 
@@ -237,6 +289,9 @@ flex: 0 0 80%;
 
   .skills-div {
     flex-direction: column;
+  }
+  .experiences-div {
+    grid-template-columns: auto;
   }
 
 }

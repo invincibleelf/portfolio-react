@@ -1,5 +1,6 @@
-import { FaHtml5, FaCss3Alt, FaReact, FaAws } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaReact, FaAws, FaJava, FaAngular, FaGitlab, FaGithub, FaBootstrap } from 'react-icons/fa';
 import { SiJavascript, SiDotNet, SiCsharp, SiMysql, SiMongodb } from 'react-icons/si';
+import { DiJira } from 'react-icons/di'
 
 const introduction = {
     name: "Sharad Shrestha",
@@ -59,6 +60,11 @@ const skills = {
                 src: <FaReact size='3em' style={{ color: '#00d1f7' }} />,
                 level: '80'
             },
+            {
+                name: 'Angular',
+                src: <FaAngular size='3em' style={{ color: '#e23237' }} />,
+                level: '80'
+            }
 
         ]
     },
@@ -100,21 +106,126 @@ const experiences = {
     title: "Experiences",
     jobs: [
         {
-            company: "Company 1",
-            logo: <SiMongodb size='3em' style={{ color: '#3e9737' }} />,
+            company: "MVP Studio",
+            logo: "../../images/mvp-studio.png",
             title: "Software Developer Intern",
             duration: "March 2021 - Current",
             responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
             Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
             tools: [
-                <FaHtml5 style={{ color: '#e44d26' }} size='3em' />,
-                <FaHtml5 style={{ color: '#e44d26' }} size='3em' />,
-                <FaHtml5 style={{ color: '#e44d26' }} size='3em' />
+                {
+                    name: "HTML",
+                    src: <FaHtml5 style={{ color: '#e44d26' }} size='3em' />,
+                },
+                {
+                    name: "CSS",
+                    src: <FaCss3Alt style={{ color: '#1572b6' }} size='3em' />,
+                },
+                {
+                    name: 'JavaScript',
+                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
+                },
+                {
+                    name: "React",
+                    src: <FaReact size='3em' style={{ color: '#00d1f7' }} />,
+                },
+                {
+                    name: '.NET Core',
+                    src: <SiDotNet size='3em' style={{ color: '#5c2992' }} />
+                },
+                {
+                    name: 'MongoDb',
+                    src: <SiMongodb size='3em' style={{ color: '#3e9737' }} />
+                },
+                {
+                    name: 'AWS',
+                    src: <FaAws size='3em' style={{ color: '#f79400' }} />,
+                },
+                {
+                    name: 'Gitlab',
+                    src: <FaGitlab size='3em' style={{ color: '#f46a25' }} />,
+                },
+                {
+                    name: 'Jira',
+                    src: <DiJira size='3em' style={{ color: '#25476d' }} />,
+                }
             ]
         },
         {
+            company: "Chinalink Professional Services",
+            logo: "../../images/clps.png",
+            title: "Software Developer",
+            duration: "Jun 2018 - Feb 2019",
+            responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            tools: [
+                {
+                    name: "HTML",
+                    src: <FaHtml5 style={{ color: '#e44d26' }} size='3em' title="html" />,
+                },
+                {
+                    name: "CSS",
+                    src: <FaCss3Alt style={{ color: '#1572b6' }} size='3em' />,
+                },
+                {
+                    name: 'JavaScript',
+                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
+                },
+                {
+                    name: 'Bootstrap',
+                    src: <FaBootstrap size='3em' style={{ color: '#533b78' }} />
+                },
+                {
+                    name: '.NET Core',
+                    src: <SiDotNet size='3em' style={{ color: '#5c2992' }} />
+                },
+                {
+                    name: 'MySQL',
+                    src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
+                },
+                {
+                    name: 'Github',
+                    src: <FaGithub size='3em' style={{ color: '#000000' }} />,
+                }
 
+
+            ]
+        },
+        {
+            company: "F1Soft International",
+            logo: "../../images/f1soft.png",
+            title: "Java Developer",
+            duration: "Dec 2013 - May 2015",
+            responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            tools: [
+                {
+                    name: "HTML",
+                    src: <FaHtml5 style={{ color: '#e44d26' }} size='3em' title="html" />,
+                },
+                {
+                    name: "CSS",
+                    src: <FaCss3Alt style={{ color: '#1572b6' }} size='3em' />,
+                },
+                {
+                    name: 'JavaScript',
+                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
+                },
+                {
+                    name: 'Bootstrap',
+                    src: <FaBootstrap size='3em' style={{ color: '#533b78' }} />
+                },
+                {
+                    name: 'Java',
+                    src: <FaJava size='3em' style={{ color: '#507997' }} />
+                },
+                {
+                    name: 'MySQL',
+                    src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
+                },
+            ]
         }
+
     ]
 }
 

@@ -4,6 +4,7 @@ import Header from "../components/header/Header";
 import "../App.css";
 import Introduction from "./Introduction";
 import Skills from "./Skills";
+import Experiences from "./Experiences";
 
 export default class Main extends Component {
 
@@ -11,9 +12,10 @@ export default class Main extends Component {
         return (
             <div className="main-container">
 
-                <Header/>
-                <Introduction id="introduction"/>
-                <Skills id="skills"/>
+                <Header />
+                <Introduction />
+                <Skills />
+                <Experiences></Experiences>
                 <Footer />
             </div>
         );
