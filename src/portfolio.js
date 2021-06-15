@@ -249,6 +249,29 @@ const projects = {
     ]
 };
 
+const education = {
+    title:"Education",
+    universities : [
+        {
+            name:"Deakin University",
+            location:"Burwood, VIC, Australia",
+            logo:"../../images/deakin.png",
+            course:"Master of Information Technology",
+            duration:"Jun 2015 - Jul 2017",
+            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+        },
+        {
+            name:"Tribhuwan University",
+            location:"Kathmandu, Nepal",
+            logo:"../../images/tribhuwan.png",
+            course:"Bachelor of Computer Engineering",
+            duration:"Jun 2010 - Nov 2013",
+            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+        }
+    ]
+}
 
 
 export {
@@ -257,5 +280,6 @@ export {
     whatCanIDo,
     skills,
     experiences,
-    projects
+    projects,
+    education
 };

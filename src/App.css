@@ -179,7 +179,7 @@ flex: 0 0 80%;
 */
 .experiences-div {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: auto auto auto;
   gap: 1.5rem 1.5rem;
 }
 
@@ -232,7 +232,7 @@ flex: 0 0 80%;
 */
 .projects-div {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
   gap: 2rem 2rem;
 }
 
@@ -247,6 +247,37 @@ flex: 0 0 80%;
   padding-top: 1.5em;
   max-width: 60%;
 }
+
+/* 
+  ####### Education Section
+*/
+
+.education-sec {
+  display: flex;
+  flex-wrap: wrap;
+  border:#9e9fa1 1px solid;
+  border-radius: 10px;
+  padding:0.5em 1em;
+}
+
+.education-sec:not(:last-child){
+  margin-bottom: 1em;
+} 
+
+.education-sec img {
+  max-width: 60%;
+}
+
+.education-banner {
+  flex: 0 0 15%;
+  text-align: center;
+  align-self: center;
+}
+
+.education-description {
+  flex: 1 1 85%;
+}
+
 
 
 
@@ -280,6 +311,19 @@ flex: 0 0 80%;
   }
   .projects-div {
     grid-template-columns: auto;
+  }
+
+  .education-div {
+    flex-direction: column;
+  }
+  .education-sec img {
+    max-width: 50%;
+  }
+  .education-banner {
+    flex: auto;
+  }
+  .education-description {
+    flex: auto;
   }
   
 }
@@ -318,9 +362,7 @@ flex: 0 0 80%;
   .experiences-div {
     grid-template-columns: auto;
   }
-  .projects-div {
-    grid-template-columns: auto;
-  }
-  
+
+ 
 
 }
