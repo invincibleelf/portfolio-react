@@ -279,6 +279,27 @@ flex: 0 0 80%;
 }
 
 
+/* 
+  ####### Certification and Programs Section
+*/
+
+.certification-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5em 1.5em;
+}
+
+.certification-div .certification-sec {
+  border: #9e9fa1 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.certification-sec img {
+  max-width: 60%;
+  border-radius: 10px;
+  padding: 1em;
+}
 
 
 
@@ -325,6 +346,9 @@ flex: 0 0 80%;
   .education-description {
     flex: auto;
   }
+  .certification-div {
+    grid-template-columns: auto auto;
+  }
   
 }
 
@@ -360,6 +384,9 @@ flex: 0 0 80%;
     flex-direction: column;
   }
   .experiences-div {
+    grid-template-columns: auto;
+  }
+  .certification-div {
     grid-template-columns: auto;
   }
 

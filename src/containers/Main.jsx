@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Education from "./Education";
+import Certification from "./Certification";
 
 export default class Main extends Component {
 
@@ -20,6 +21,7 @@ export default class Main extends Component {
                 <Experiences/>
                 <Projects/>
                 <Education/>
+                <Certification/>
                 <Footer />
             </div>
         );

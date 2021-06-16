@@ -230,44 +230,68 @@ const experiences = {
 };
 
 const projects = {
-    title:"Projects",
-    project:[
+    title: "Projects",
+    project: [
         {
-            name:"Project Bit.Country",
-            image:"../../images/bitcountry.png",
-            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            name: "Project Bit.Country",
+            image: "../../images/bitcountry.png",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
             Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
-            link:"https://bit.country/"
+            link: "https://bit.country/"
         },
         {
-            name:"Project Esewa",
-            image:"../../images/esewa.png",
-            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            name: "Project Esewa",
+            image: "../../images/esewa.png",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
             Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
-            link:"https://esewa.com.np/#/home"
+            link: "https://esewa.com.np/#/home"
         }
     ]
 };
 
 const education = {
-    title:"Education",
-    universities : [
+    title: "Education",
+    universities: [
         {
-            name:"Deakin University",
-            location:"Burwood, VIC, Australia",
-            logo:"../../images/deakin.png",
-            course:"Master of Information Technology",
-            duration:"Jun 2015 - Jul 2017",
-            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            name: "Deakin University",
+            location: "Burwood, VIC, Australia",
+            logo: "../../images/deakin.png",
+            course: "Master of Information Technology",
+            duration: "Jun 2015 - Jul 2017",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
             Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
         },
         {
-            name:"Tribhuwan University",
-            location:"Kathmandu, Nepal",
-            logo:"../../images/tribhuwan.png",
-            course:"Bachelor of Computer Engineering",
-            duration:"Jun 2010 - Nov 2013",
-            description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            name: "Tribhuwan University",
+            location: "Kathmandu, Nepal",
+            logo: "../../images/tribhuwan.png",
+            course: "Bachelor of Computer Engineering",
+            duration: "Jun 2010 - Nov 2013",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+        }
+    ]
+};
+
+const certification = {
+    title: "Certification and Programs",
+    certificates: [
+        {
+            name: "Software Developer Job Ready Program",
+            image: "../../images/ic.png",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+        },
+        {
+            name: "Professional Year Program",
+            image: "../../images/pe.png",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
+            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+        },
+        {
+            name: "Web Design For Everybody",
+            image: "../../images/coursera.png",
+            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
             Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
         }
     ]
@@ -281,5 +305,6 @@ export {
     skills,
     experiences,
     projects,
-    education
+    education,
+    certification
 };
