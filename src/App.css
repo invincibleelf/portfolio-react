@@ -43,7 +43,6 @@ ul li {
 
 .intro-div {
   display: flex;
-  border: solid;
   flex-wrap: wrap;
   text-align: center;
   
@@ -132,7 +131,6 @@ ul li {
 */
 
 .skills-div {
-  border: springgreen solid;
   display: flex;
   flex-wrap: wrap;
 }
@@ -340,11 +338,12 @@ flex: 0 0 80%;
   right: 5px;
 }
 
+footer {
 
-
-
-
-
+  margin-bottom: 10px;
+  text-align: center;
+  color: #736c6c;
+}
 
 /* Medium screens */
 @media all and (max-width: 800px) {
@@ -396,15 +395,9 @@ flex: 0 0 80%;
     
   }
   
-  
-}
+  }
 
-footer {
 
-  margin-bottom: 10px;
-  text-align: center;
-  color: #736c6c;
-}
 
 /* Small screens */
 @media all and (max-width: 500px) {
@@ -430,9 +423,6 @@ footer {
   .intro-div .cando-img {
     flex: auto;
   }
-  /* .intro-div {
-    flex-direction: column;
-  } */
 
   .skills-div {
     flex-direction: column;

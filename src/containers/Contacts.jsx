@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { FaHome, FaLocationArrow } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import SocialMedia from "../components/social media/SocialMedia";
 import { contacts } from "../portfolio";
 

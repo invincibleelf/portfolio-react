@@ -2,7 +2,6 @@
 
 header {
     display: flex;
-    border: solid;
     height: auto;
     color: #3D80CC;
 }
@@ -51,7 +50,7 @@ header .title {
   /* Small screens */
   @media all and (max-width: 500px) {
     .navigation {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
     header .title{
         display: none;
