@@ -12,7 +12,7 @@ export default class Intro extends Component {
                 <div className="title">{introduction.title}</div>
                 <p>{introduction.summary}</p>
                 <SocialMedia />
-                <a href={introduction.resume} target="_blank">
+                <a href={introduction.resume} target="_blank" rel="noreferrer">
                     <button className="primary">Resume</button>
                 </a>
 
