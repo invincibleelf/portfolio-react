@@ -250,6 +250,13 @@ const projects = {
     ]
 };
 
+const otherProjects = {
+    title:"Other Projects",
+    githubapi:"https://api.github.com/users/invincibleelf/repos",
+    repos:["portfolio-react", "genericApi", "toy-robot", "OpERP"],
+    github:"https://github.com/invincibleelf?tab=repositories&q=&type=&language=&sort=stargazers"
+}
+
 const education = {
     title: "Education",
     universities: [
@@ -316,5 +323,6 @@ export {
     projects,
     education,
     certification,
-    contacts
+    contacts,
+    otherProjects
 };

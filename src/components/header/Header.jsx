@@ -11,7 +11,7 @@ export default class Header extends Component {
         lastScrollY: 0
     }
 
-    componentWillMount() {
+    componentDidMount() {
         window.addEventListener('scroll', this.handleScroll)
     }
 
@@ -41,6 +41,7 @@ export default class Header extends Component {
                 </div>
                 <nav className="navigation">
                     <a href="#contact">Contact</a>
+                    <a href="#certification">Certiification</a>
                     <a href="#education">Education</a>
                     <a href="#projects">Projects</a>
                     <a href="#experiences">Experiences</a>

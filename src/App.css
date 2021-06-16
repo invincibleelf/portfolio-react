@@ -248,6 +248,28 @@ flex: 0 0 80%;
 }
 
 /* 
+  ####### Projects Section
+*/
+.otherprojects-div {
+  display: grid;
+  gap: 10px 1%;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+}
+
+.otherprojects-div .otherprojects-sec {
+  border:#9e9fa1 1px solid;
+  border-radius: 10px;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.otherprojects-div .otherprojects-sec:hover {
+  cursor: pointer;
+  box-shadow: 0 20px 30px -10px rgba(0,0,0,.2);
+}
+
+/* 
   ####### Education Section
 */
 
@@ -394,6 +416,10 @@ footer {
   .contacts-div .contact-banner img {
     max-width: 80%;
     
+  }
+
+  .otherprojects-div {
+    grid-template-columns: 48% 48%;
   }
   
   }

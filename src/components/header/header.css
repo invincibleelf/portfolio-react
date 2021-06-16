@@ -10,6 +10,7 @@ header {
     right: 0;
     background-color: white;
     transition: top 0.3s;
+    z-index: 99;
 }
 
 header a {

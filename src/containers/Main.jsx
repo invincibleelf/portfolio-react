@@ -10,6 +10,7 @@ import Education from "./Education";
 import Certification from "./Certification";
 import Contacts from "./Contacts";
 import { FaHandPointer } from "react-icons/fa";
+import OtherProjects from "./OtherProjects";
 
 export default class Main extends Component {
 
@@ -22,6 +23,7 @@ export default class Main extends Component {
                 <Skills />
                 <Experiences/>
                 <Projects/>
+                <OtherProjects/>
                 <Education/>
                 <Certification/>
                 <Contacts/>
