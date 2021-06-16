@@ -4,6 +4,12 @@ header {
     display: flex;
     height: auto;
     color: #3D80CC;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: top 0.3s;
 }
 
 header a {
