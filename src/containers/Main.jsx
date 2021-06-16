@@ -8,6 +8,8 @@ import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Education from "./Education";
 import Certification from "./Certification";
+import Contacts from "./Contacts";
+import { FaHandPointer } from "react-icons/fa";
 
 export default class Main extends Component {
 
@@ -22,7 +24,14 @@ export default class Main extends Component {
                 <Projects/>
                 <Education/>
                 <Certification/>
+                <Contacts/>
                 <Footer />
+                <button id="topButton" title="Goto top" onClick={()=>{
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }}>
+                    <FaHandPointer/>
+                </button>
             </div>
         );
     }

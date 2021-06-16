@@ -301,6 +301,44 @@ flex: 0 0 80%;
   padding: 1em;
 }
 
+/* 
+  ####### Contacts Section
+*/
+
+.contacts-div {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.contacts-div .contact-desc {
+  flex: 1 1 78%;
+}
+
+.contacts-div .contact-banner {
+  flex: 1 1 20%;
+  padding: 1%;
+  align-self: center;
+  text-align: center;
+}
+
+.contacts-div .contact-banner img {
+  max-width: 90%;
+  border-radius: 50%;
+}
+
+.contacts-div .contact-desc .socialmedia-sec {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+
+#topButton {
+  width: 2.5em;
+  position:fixed;
+  bottom: 10px;
+  right: 5px;
+}
 
 
 
@@ -349,7 +387,23 @@ flex: 0 0 80%;
   .certification-div {
     grid-template-columns: auto auto;
   }
+
+  .contacts-div {
+    flex-direction: column-reverse;
+  }
+  .contacts-div .contact-banner img {
+    max-width: 80%;
+    
+  }
   
+  
+}
+
+footer {
+
+  margin-bottom: 10px;
+  text-align: center;
+  color: #736c6c;
 }
 
 /* Small screens */
@@ -389,6 +443,12 @@ flex: 0 0 80%;
   .certification-div {
     grid-template-columns: auto;
   }
+
+  .contacts-div .contact-banner img {
+    max-width: 50%;
+    
+  }
+  
 
  
 

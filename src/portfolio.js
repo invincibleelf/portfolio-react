@@ -295,6 +295,14 @@ const certification = {
             Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
         }
     ]
+};
+
+const contacts = {
+    title: "Contact Me",
+    subtitle: "#Developer #Programmer #Engineer #Gamer",
+    image: "../../images/profile.jpg",
+    location:"Melbourne, Australia",
+    opportunity: "Open for opportunity : Yes"
 }
 
 
@@ -306,5 +314,6 @@ export {
     experiences,
     projects,
     education,
-    certification
+    certification,
+    contacts
 };
