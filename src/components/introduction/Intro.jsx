@@ -5,14 +5,17 @@ import SocialMedia from "../social media/SocialMedia";
 
 export default class Intro extends Component {
 
-    render(){
+    render() {
 
-        return(
+        return (
             <div className="intro-sec">
                 <div className="title">{introduction.title}</div>
                 <p>{introduction.summary}</p>
-                <SocialMedia/>
-                <button className="primary">Resume</button>
+                <SocialMedia />
+                <a href={introduction.resume} target="_blank">
+                    <button className="primary">Resume</button>
+                </a>
+
             </div>
         );
     }

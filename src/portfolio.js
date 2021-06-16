@@ -7,7 +7,8 @@ const introduction = {
     title: "Hi, I am Sharad",
     summary: `I'm a web designer / software developer based in Melbourne, Australia. I have a passion for web development 
     and love to create for web applications.I'm a web designer / software developer based in Melbourne, Australia. I have a 
-    passion for web development and love to create for web applications.`
+    passion for web development and love to create for web applications.`,
+    resume:`https://drive.google.com/file/d/1KIcWuEtJoR__y26Iytc1ek577b1OomFL/view?usp=sharing`
 };
 
 const socialMedia = {
