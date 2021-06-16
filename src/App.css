@@ -45,6 +45,7 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  margin-top:2.5em;
   
 }
 
@@ -410,6 +411,9 @@ footer {
     margin: 0 1em;
   }
 
+  .intro-div {
+    margin-top: 18em;
+  }
   .intro-div .intro-sec{
     flex: auto;
   }
