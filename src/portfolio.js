@@ -277,7 +277,8 @@ const education = {
             logo: "../../images/deakin.png",
             course: "Master of Information Technology",
             duration: "Jun 2015 - Jul 2017",
-            description: `Achieved high distinction with major in Software Development`
+            description: `Achieved high distinction with major in Software Development`,
+            transcript:'https://drive.google.com/file/d/1Jn0fCcR52wyygyvXp6XzX1C1M081rGye/view?usp=sharing'
         },
         {
             name: "Tribhuwan University",
@@ -285,7 +286,8 @@ const education = {
             logo: "../../images/tribhuwan.png",
             course: "Bachelor of Computer Engineering",
             duration: "Jun 2010 - Nov 2013",
-            description: `Achieved distinction with major in Software Engineering`
+            description: `Achieved distinction with major in Software Engineering`,
+            transcript:'https://drive.google.com/file/d/16Xk-fQXVj-iLw__H9cUyLMfT5AlW4RMp/view?usp=sharing'
         }
     ]
 };
@@ -296,18 +298,20 @@ const certification = {
         {
             name: "Software Developer Job Ready Program",
             image: "../../images/ic.png",
-            description: `Job ready program giving hands on experience with commercial projects.`
+            description: `Job ready program giving hands on experience with commercial projects.`,
         },
         {
-            name: "Professional Year Program",
+            name: "ACS Professional Year Program",
             image: "../../images/pe.png",
             description: `Professional development program combining formal learning and workplace 
-            experience.`
+            experience.`,
+            transcript:'https://drive.google.com/file/d/1Tv_Bf2204mMC2uiexqySxvaq9KhriQsj/view?usp=sharing'
         },
         {
             name: "Web Design For Everybody",
             image: "../../images/coursera.png",
-            description: `Interactive website design with HTML, CSS and Javascript`
+            description: `Interactive website design with HTML, CSS and Javascript`,
+            transcript:'https://drive.google.com/file/d/1k73W7VHMI6wjUneeLnOU2t32BZJIVLhW/view?usp=sharing'
         }
     ]
 };

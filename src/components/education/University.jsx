@@ -15,7 +15,13 @@ class University extends Component {
                     <span style={{ float: "right" }}>{university.duration}</span>
                     <div style={{ fontStyle: "italic" }}>{university.name}, {university.location}</div>
                     <div>{university.description}</div>
+                    <div className="download-btn">
+                        <a href={university.transcript} target="_blank" rel="noreferrer">
+                        <button className="primary">Transcript</button>
+                        </a>
+                    </div>
                 </div>
+
             </div>
         )
     }

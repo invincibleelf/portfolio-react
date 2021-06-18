@@ -299,6 +299,10 @@ flex: 0 0 80%;
   flex: 1 1 85%;
 }
 
+.education-description button {
+  width: 6em;
+}
+
 
 /* 
   ####### Certification and Programs Section
@@ -320,6 +324,9 @@ flex: 0 0 80%;
   max-width: 60%;
   border-radius: 10px;
   padding: 1em;
+}
+.certification-sec button {
+  width: 6em;
 }
 
 /* 
@@ -421,8 +428,11 @@ footer {
   .otherprojects-div {
     grid-template-columns: 48% 48%;
   }
-  
+
+  .education-description .download-btn {
+    text-align: center;
   }
+}
 
 
 

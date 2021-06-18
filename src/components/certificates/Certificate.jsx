@@ -12,8 +12,12 @@ class Certificate extends Component {
                 <div className="project-description">
                     <div style={{ fontWeight: "bold" }}>{certificate.name}</div>
                     <div>{certificate.description}</div>
-                    
                 </div>
+                {certificate.transcript ?<div className="download-btn">
+                    <a href={certificate?.transcript} target="_blank" rel="noreferrer">
+                        <button className="primary">Certificate</button>
+                    </a>
+                </div>:""}
             </div>
         )
     }
