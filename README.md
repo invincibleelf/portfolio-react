@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Software Developer Portfolio⚡️ [![GitHub](https://img.shields.io/github/license/invincibleelf/portfolio-react?color=blue)](https://github.com/invincibleelf/portfolio-react/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/invincibleelf/portfolio-react)](https://github.com/invincibleelf/portfolio-react/stargazers)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An Elegant and Responsive portfolio template for developers. Just change file src/portfolio.js with your personal details to get your own portfolio.
 
-## Available Scripts
+## Portfolio Sections
+✔️ Introduction\
+✔️ Skills\
+✔️ Work Experience\
+✔️ Projects\
+✔️ Education\
+✔️ Certifications\
+✔️ Contact me\
 
-In the project directory, you can run:
+To view a demo example, **[click here](https://sharadshrestha.netlify.app/)**.
 
-### `npm start`
+## Customise sections as needed
+#### Modify`/src/portfolio.js` to obtain personalised content as per your need. You will also need to modify index.html to change the metadata to reflect the title you want for your personal portfolio.
+```javascript
+/* Change this file to get your Personal Porfolio */
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+const introduction = {
+    name: "Sharad Shrestha",
+    title: "Hi, I am Sharad",
+    summary: `I'm a web designer / software developer based in Melbourne, Australia, with a passion of 
+    developing innovative programs and applying technical expertise to ensure
+    production and delivery of products and services that meets the client requirements. With high achievements during 
+    mu university and excellent professional experience, I have strong technical skills and programming knowledge.`,
+    resume: `https://drive.google.com/file/d/14fEW_kxCRbRs9kcTsHw8asPUQpcJNQ2C/view?usp=sharing`
+};
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+const socialMedia = {
+    twitter: "https://twitter.com/invinciblelf",
+    github: "https://github.com/invincibleelf",
+    linkedin: "https://www.linkedin.com/in/sharad-shrestha-0182b2aa/",
+    stackOverflow: "https://stackoverflow.com/users/3425569/invincibleelf",
+    gmail: "invinciblesharad@gmail.com",
+};
 
-### `npm test`
+const whatCanIDo = {
+    title: "What Can I Do",
+    //TODO Change contents
+    summary: `Full stack developer keen to expore latest technologies`,
+    list: [
+        `Write and maintain program code to meet system requirements, system
+        designs and technical specifications in accordance with quality standards`,
+        `Develop highly interactive user interfaces and APIs for web applications`,
+        `Host applicaiton and services to the cloud platform`
+    ]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+};
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+const skills = { .... }
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+const experiences = { .... }
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+const projects = { .... }
 
-### `npm run eject`
+const otherprojects = { .... }
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+## Deployment
+You can deploy project as Github pages or at Netlify. Pleae read through [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) and [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify) docs for React. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [Pencil](https://pencil.evolus.vn/wiki/devguide/Introduction.html) to design wire frames 
