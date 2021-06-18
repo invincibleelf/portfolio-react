@@ -1,14 +1,15 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaAws, FaJava, FaAngular, FaGitlab, FaGithub, FaBootstrap } from 'react-icons/fa';
-import { SiJavascript, SiDotNet, SiCsharp, SiMysql, SiMongodb } from 'react-icons/si';
+import { SiJavascript, SiDotNet, SiCsharp, SiMysql, SiMongodb, SiSpring } from 'react-icons/si';
 import { DiJira } from 'react-icons/di'
 
 const introduction = {
     name: "Sharad Shrestha",
     title: "Hi, I am Sharad",
-    summary: `I'm a web designer / software developer based in Melbourne, Australia. I have a passion for web development 
-    and love to create for web applications.I'm a web designer / software developer based in Melbourne, Australia. I have a 
-    passion for web development and love to create for web applications.`,
-    resume:`https://drive.google.com/file/d/1KIcWuEtJoR__y26Iytc1ek577b1OomFL/view?usp=sharing`
+    summary: `I'm a web designer / software developer based in Melbourne, Australia, with a passion of 
+    developing innovative programs and applying technical expertise to ensure
+    production and delivery of products and services that meets the client requirements. With high achievements during 
+    mu university and excellent professional experience, I have strong technical skills and programming knowledge.`,
+    resume: `https://drive.google.com/file/d/14fEW_kxCRbRs9kcTsHw8asPUQpcJNQ2C/view?usp=sharing`
 };
 
 const socialMedia = {
@@ -24,14 +25,10 @@ const whatCanIDo = {
     //TODO Change contents
     summary: `Full stack developer keen to expore latest technologies`,
     list: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-         Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-         Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-         Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-         Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+        `Write and maintain program code to meet system requirements, system
+        designs and technical specifications in accordance with quality standards`,
+        `Develop highly interactive user interfaces and APIs for web applications`,
+        `Host applicaiton and services to the cloud platform`
     ]
 
 };
@@ -64,7 +61,7 @@ const skills = {
             {
                 name: 'Angular',
                 src: <FaAngular size='3em' style={{ color: '#e23237' }} />,
-                level: '80'
+                level: '70'
             }
 
         ]
@@ -78,6 +75,11 @@ const skills = {
                 level: '85'
             },
             {
+                name: 'Java',
+                src: <FaJava size='3em' style={{ color: '#507997' }} />,
+                level: '85'
+            },
+            {
                 name: '.NET Core',
                 src: <SiDotNet size='3em' style={{ color: '#5c2992' }} />,
                 level: '85'
@@ -87,7 +89,6 @@ const skills = {
                 src: <FaAws size='3em' style={{ color: '#f79400' }} />,
                 level: '70'
             },
-
             {
                 name: 'MySQL',
                 src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
@@ -111,8 +112,9 @@ const experiences = {
             logo: "../../images/mvp-studio.png",
             title: "Software Developer Intern",
             duration: "March 2021 - Current",
-            responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            responsibility: `MVP Studo is an incubator for software start-ups and tech product development company.
+            I am working on Project Bit.Country which is a decentralised platform enabling individual to create their
+            own metaverse.`,
             tools: [
                 {
                     name: "HTML",
@@ -157,48 +159,9 @@ const experiences = {
             logo: "../../images/clps.png",
             title: "Software Developer",
             duration: "Jun 2018 - Feb 2019",
-            responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
-            tools: [
-                {
-                    name: "HTML",
-                    src: <FaHtml5 style={{ color: '#e44d26' }} size='3em' title="html" />,
-                },
-                {
-                    name: "CSS",
-                    src: <FaCss3Alt style={{ color: '#1572b6' }} size='3em' />,
-                },
-                {
-                    name: 'JavaScript',
-                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
-                },
-                {
-                    name: 'Bootstrap',
-                    src: <FaBootstrap size='3em' style={{ color: '#533b78' }} />
-                },
-                {
-                    name: '.NET Core',
-                    src: <SiDotNet size='3em' style={{ color: '#5c2992' }} />
-                },
-                {
-                    name: 'MySQL',
-                    src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
-                },
-                {
-                    name: 'Github',
-                    src: <FaGithub size='3em' style={{ color: '#000000' }} />,
-                }
-
-
-            ]
-        },
-        {
-            company: "F1Soft International",
-            logo: "../../images/f1soft.png",
-            title: "Java Developer",
-            duration: "Dec 2013 - May 2015",
-            responsibility: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            responsibility: `CLPS is a global information technology, consulting and solutions service provider
+             focused on delivering services to global institutions in banking, insurance and the financial sectors, 
+             both in China and globally.`,
             tools: [
                 {
                     name: "HTML",
@@ -221,6 +184,51 @@ const experiences = {
                     src: <FaJava size='3em' style={{ color: '#507997' }} />
                 },
                 {
+                    name:"Spring",
+                    src:<SiSpring size='3em' style={{color:'#6cb33e'}}/>
+                },
+                {
+                    name: 'MySQL',
+                    src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
+                },
+                {
+                    name: 'Github',
+                    src: <FaGithub size='3em' style={{ color: '#000000' }} />,
+                }
+
+
+            ]
+        },
+        {
+            company: "F1Soft International",
+            logo: "../../images/f1soft.png",
+            title: "Java Developer",
+            duration: "Dec 2013 - May 2015",
+            responsibility: `F1Soft Group is an ecosystem of digital products and services that facilitates Nepali
+             consumers’ access to financial services and enables their inclusion in the formal digital economy, 
+             in simple, affordable and secure ways`,
+            tools: [
+                {
+                    name: "HTML",
+                    src: <FaHtml5 style={{ color: '#e44d26' }} size='3em' title="html" />,
+                },
+                {
+                    name: "CSS",
+                    src: <FaCss3Alt style={{ color: '#1572b6' }} size='3em' />,
+                },
+                {
+                    name: 'JavaScript',
+                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
+                },
+                {
+                    name: 'Java',
+                    src: <FaJava size='3em' style={{ color: '#507997' }} />
+                },
+                {
+                    name:"Spring",
+                    src:<SiSpring size='3em' style={{color:'#6cb33e'}}/>
+                },
+                {
                     name: 'MySQL',
                     src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
                 },
@@ -236,25 +244,28 @@ const projects = {
         {
             name: "Project Bit.Country",
             image: "../../images/bitcountry.png",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            description: `Bit.Country is a decentralised platform enabling
+            individual to create their own metaverse. An individual can choose his own token, with a
+            specific token economy structure in his/her metaverse. The framework also supports NFTs. The
+            project is supported by Web3 foundation grant and has secured $4M in first round of funding.`,
             link: "https://bit.country/"
         },
         {
             name: "Project Esewa",
             image: "../../images/esewa.png",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`,
+            description: `ESewa is Nepal’s first digital wallet enabling
+            customers to make various bill payments. The customers can load funds through most of the
+            banks in Nepal and make payments for different services.`,
             link: "https://esewa.com.np/#/home"
         }
     ]
 };
 
 const otherProjects = {
-    title:"Other Projects",
-    githubapi:"https://api.github.com/users/invincibleelf/repos",
-    repos:["portfolio-react", "genericApi", "toy-robot", "OpERP"],
-    github:"https://github.com/invincibleelf?tab=repositories&q=&type=&language=&sort=stargazers"
+    title: "Other Projects",
+    githubapi: "https://api.github.com/users/invincibleelf/repos",
+    repos: ["portfolio-react", "genericApi", "toy-robot", "OpERP"],
+    github: "https://github.com/invincibleelf?tab=repositories&q=&type=&language=&sort=stargazers"
 }
 
 const education = {
@@ -266,8 +277,7 @@ const education = {
             logo: "../../images/deakin.png",
             course: "Master of Information Technology",
             duration: "Jun 2015 - Jul 2017",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+            description: `Achieved high distinction with major in Software Development`
         },
         {
             name: "Tribhuwan University",
@@ -275,8 +285,7 @@ const education = {
             logo: "../../images/tribhuwan.png",
             course: "Bachelor of Computer Engineering",
             duration: "Jun 2010 - Nov 2013",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+            description: `Achieved distinction with major in Software Engineering`
         }
     ]
 };
@@ -287,20 +296,18 @@ const certification = {
         {
             name: "Software Developer Job Ready Program",
             image: "../../images/ic.png",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+            description: `Job ready program giving hands on experience with commercial projects.`
         },
         {
             name: "Professional Year Program",
             image: "../../images/pe.png",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+            description: `Professional development program combining formal learning and workplace 
+            experience.`
         },
         {
             name: "Web Design For Everybody",
             image: "../../images/coursera.png",
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tempor lacus. 
-            Phasellus tempor, lorem sed finibus ultrices, nisl odio cursus odio, vitae vestibulum mauris nibh eu lectus.`
+            description: `Interactive website design with HTML, CSS and Javascript`
         }
     ]
 };
@@ -309,7 +316,7 @@ const contacts = {
     title: "Contact Me",
     subtitle: "#Developer #Programmer #Engineer #Gamer",
     image: "../../images/profile.jpg",
-    location:"Melbourne, Australia",
+    location: "Melbourne, Australia",
     opportunity: "Open for opportunity : Yes"
 }
 
