@@ -9,7 +9,7 @@ const introduction = {
     developing innovative programs and applying technical expertise to ensure
     production and delivery of products and services that meets the client requirements. With high achievements during 
     mu university and excellent professional experience, I have strong technical skills and programming knowledge.`,
-    resume: `https://drive.google.com/file/d/14fEW_kxCRbRs9kcTsHw8asPUQpcJNQ2C/view?usp=sharing`
+    resume: `https://drive.google.com/file/d/1yrZWbIOvV6c8M53T9wxCjD-_-8MXiUrM/view?usp=sharing`
 };
 
 const socialMedia = {
