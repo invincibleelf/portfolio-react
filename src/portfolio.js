@@ -80,24 +80,19 @@ const skills = {
                 level: '85'
             },
             {
-                name: '.NET Core',
-                src: <SiDotNet size='3em' style={{ color: '#5c2992' }} />,
-                level: '85'
+                name: 'Spring Boot',
+                src: <SiSpring size='3em' style={{ color: '#6db33f' }} />,
+                level: '75'
             },
             {
                 name: 'AWS',
                 src: <FaAws size='3em' style={{ color: '#f79400' }} />,
-                level: '70'
+                level: '50'
             },
             {
                 name: 'MySQL',
                 src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
                 level: '70'
-            },
-            {
-                name: 'MongoDb',
-                src: <SiMongodb size='3em' style={{ color: '#3e9737' }} />,
-                level: '60'
             }
         ]
 
