@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaAws, FaJava, FaAngular, FaGitlab, FaGithub, FaBootstrap } from 'react-icons/fa';
-import { SiJavascript, SiDotNet, SiCsharp, SiMysql, SiMongodb, SiSpring } from 'react-icons/si';
-import { DiJira } from 'react-icons/di'
+import { SiJavascript, SiJquery, SiCsharp, SiMysql, SiSpring, SiApachetomcat } from 'react-icons/si';
+import { DiJira, DiScrum } from 'react-icons/di'
 
 const introduction = {
     name: "Sharad Shrestha",
@@ -9,7 +9,7 @@ const introduction = {
     developing innovative programs and applying technical expertise to ensure
     production and delivery of products and services that meets the client requirements. With high achievements during 
     mu university and excellent professional experience, I have strong technical skills and programming knowledge.`,
-    resume: `https://drive.google.com/file/d/1yrZWbIOvV6c8M53T9wxCjD-_-8MXiUrM/view?usp=sharing`
+    resume: `https://drive.google.com/file/d/1iAwc3BIKlCPTc_SFqs4sbFsna-6FPE8b/view?usp=sharing`
 };
 
 const socialMedia = {
@@ -106,7 +106,7 @@ const experiences = {
             company: "MVP Studio",
             logo: "../../images/mvp-studio.png",
             title: "Software Developer Intern",
-            duration: "March 2021 - Current",
+            duration: "Jun 2021 - Dec 2021",
             responsibility: `MVP Studo is an incubator for software start-ups and tech product development company.
             I am working on Project Bit.Country which is a decentralised platform enabling individual to create their
             own metaverse.`,
@@ -128,14 +128,6 @@ const experiences = {
                     src: <FaReact size='3em' style={{ color: '#00d1f7' }} />,
                 },
                 {
-                    name: '.NET Core',
-                    src: <SiDotNet size='3em' style={{ color: '#5c2992' }} />
-                },
-                {
-                    name: 'MongoDb',
-                    src: <SiMongodb size='3em' style={{ color: '#3e9737' }} />
-                },
-                {
                     name: 'AWS',
                     src: <FaAws size='3em' style={{ color: '#f79400' }} />,
                 },
@@ -146,14 +138,20 @@ const experiences = {
                 {
                     name: 'Jira',
                     src: <DiJira size='3em' style={{ color: '#25476d' }} />,
-                }
+                },
+                {
+                    name: 'Scrum',
+                    src: <DiScrum size='3em' style={{ color: '#415870' }} />,
+                },
+                
+                
             ]
         },
         {
             company: "Chinalink Professional Services",
             logo: "../../images/clps.png",
             title: "Software Developer",
-            duration: "Jun 2018 - Feb 2019",
+            duration: "Jan 2018 - Feb 2019",
             responsibility: `CLPS is a global information technology, consulting and solutions service provider
              focused on delivering services to global institutions in banking, insurance and the financial sectors, 
              both in China and globally.`,
@@ -169,6 +167,10 @@ const experiences = {
                 {
                     name: 'JavaScript',
                     src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
+                },
+                {
+                    name: 'JQuery',
+                    src: <SiJquery size='3em' style={{ color: '#0769AD' }} />
                 },
                 {
                     name: 'Bootstrap',
@@ -198,23 +200,11 @@ const experiences = {
             company: "F1Soft International",
             logo: "../../images/f1soft.png",
             title: "Java Developer",
-            duration: "Dec 2013 - May 2015",
+            duration: "Dec 2013 - Apr 2015",
             responsibility: `F1Soft Group is an ecosystem of digital products and services that facilitates Nepali
              consumers’ access to financial services and enables their inclusion in the formal digital economy, 
              in simple, affordable and secure ways`,
             tools: [
-                {
-                    name: "HTML",
-                    src: <FaHtml5 style={{ color: '#e44d26' }} size='3em' title="html" />,
-                },
-                {
-                    name: "CSS",
-                    src: <FaCss3Alt style={{ color: '#1572b6' }} size='3em' />,
-                },
-                {
-                    name: 'JavaScript',
-                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
-                },
                 {
                     name: 'Java',
                     src: <FaJava size='3em' style={{ color: '#507997' }} />
@@ -227,6 +217,15 @@ const experiences = {
                     name: 'MySQL',
                     src: <SiMysql size='3em' style={{ color: '#005e87' }} />,
                 },
+                {
+                    name: 'Github',
+                    src: <FaGithub size='3em' style={{ color: '#000000' }} />,
+                },
+                {
+                    name: 'JavaScript',
+                    src: <SiJavascript size='3em' style={{ color: '#efd81d' }} />
+                }
+
             ]
         }
 
