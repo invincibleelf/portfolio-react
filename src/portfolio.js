@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaAws, FaJava, FaAngular, FaGitlab, FaGithub, FaBootstrap } from 'react-icons/fa';
-import { SiJavascript, SiJquery, SiCsharp, SiMysql, SiSpring, SiApachetomcat } from 'react-icons/si';
+import { SiJavascript, SiJquery, SiCsharp, SiMysql, SiSpring } from 'react-icons/si';
 import { DiJira, DiScrum } from 'react-icons/di'
 
 const introduction = {
